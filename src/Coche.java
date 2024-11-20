@@ -33,4 +33,13 @@ public class Coche {
                 ", anio=" + anio +
                 '}';
     }
+    public void encender() {
+        System.out.println("El coche está encendido.");
+    }
+    public void apagar() {
+        System.out.println("El coche está apagado.");
+    }
+    public void apagar2() {
+        System.out.println("El coche se apaga de manera segura.");
+    }
 }
